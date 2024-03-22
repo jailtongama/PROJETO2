@@ -1,0 +1,216 @@
+*{
+    font-family:"Montserrat", sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin:30px 0 120px 10px;
+    color: #989D9C;
+    cursor: pointer;
+}
+a{
+    margin-left: 30px;
+}
+.home{
+  
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+
+.about{
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.product{
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.service{
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.contact{
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+img{
+    width: 600px;
+    height: 540px;
+    display: inline-block;
+    margin:17px 0 -89px 70px;
+}
+
+section{
+
+    display: inline-block;
+    margin:0px 0 0 80px;
+}
+
+.button1{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    background:#7F00FF;
+    border:0;
+    border-radius: 20px;
+    width: 110px;
+    height: 32px;
+    margin-left: 30px;
+    cursor: pointer;
+    
+}
+
+.button2{
+    color:#000000;
+    background: #ADFF00;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border: 0;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 239px;
+    height: 64px;
+    border-radius: 58px;
+    cursor:pointer;
+
+}
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+    width: 513px;
+    height: 122px;
+    margin:0 0 25px 0;
+   
+
+}
+
+h2{
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+    width: 448px;
+    height: 71px;
+    margin: 0 0 20px 0;
+}
+
+p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #848484;
+    width: 515px;
+    height: 87px;
+    margin: 0 0 36px 0;
+
+
+
+}
+
+
+
+
+
+
+
+@media  (max-width: 700px){
+
+    img{
+        display: block;
+        width: 90%;
+        height:auto;
+        margin:177px auto 0 auto;
+    }
+
+    h1{
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 61px;
+        letter-spacing: 2px;
+        text-align: center;
+        color: #515151;
+        width:90%;
+        margin:14px auto 0 auto;
+        
+    }
+
+    section{
+        display: block;
+        margin:0 auto 0 auto;
+    }
+
+    h2{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 37px;
+        letter-spacing: 2px;
+        text-align: center;
+        color: #515151;
+        width: 315px;
+        height: 37px;
+       margin: -33px auto 0 auto;
+       
+    }
+
+    .button2{
+        width: 239px;
+        height: 64px;
+        border-radius: 50px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #000000;
+        margin:  44px auto 0 auto;
+        display: block;
+        cursor: pointer;
+    }
+  
+
+    p{
+        display:none;
+    }
+    header{
+        display: none;
+    }
+
+}
+    
